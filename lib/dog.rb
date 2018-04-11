@@ -4,11 +4,11 @@ class Dog
 
   def initialize(dog_name)
     @@all << @dog_name = dog_name
-    
+
   end
 
   def self.clear_all
-    
+    @@all.clear
   end
-  
+
 end
